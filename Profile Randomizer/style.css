@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+}
+.parent {
+    background-color: rgb(1, 36, 48);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.box1 {
+    background-color: rgba(144, 238, 144, 0);
+}
+.box2 {
+    background-color: rgba(93, 184, 93, 0);
+    text-align: center;
+    display: flex; /*Inline Buttons*/
+}
+.box3 {
+    background-color: rgba(15, 76, 81, 0.954);
+    width: 280px;
+    border-radius: 10px;
+    color: aliceblue;
+}
+
+.info {
+    margin: 10px;
+}
+.form {
+    margin: 10px;
+}
+
+.buttons {
+    margin: 10px 2.5px;
+    padding: 25px;
+    height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 20px;
+    color: aliceblue;
+    background-color: rgb(6, 96, 230);
+    transition: 0.15s;
+
+    display: flex;                
+    align-items: center;          
+    justify-content: center;
+    
+}
+
+.buttons:hover {
+    background-color: rgb(36, 208, 224);
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    letter-spacing: 2px;
+    border-radius: 25px;
+}
+
+#profileImage{
+    width: 250px;
+    height: 250px;
+    border-radius: 40px;
+}
+.info {
+    color: rgb(175, 227, 241);
+    font-size: larger;
+}
